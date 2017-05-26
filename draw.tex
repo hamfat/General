@@ -1,0 +1,75 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{graphicx}
+ \usepackage[usenames,dvipsnames]{pstricks}
+ \usepackage{epsfig}
+ \usepackage{pst-grad} % For gradients
+ \usepackage{pst-plot} % For axes
+ \usepackage[space]{grffile} % For spaces in paths
+\usepackage{etoolbox} % For spaces in paths
+\makeatletter % For spaces in paths
+ \patchcmd\Gread@eps{\@inputcheck#1 }{\@inputcheck"#1"\relax}{}{}
+ \makeatother
+ \title{Flow Chart}
+\author{Fatoyinbo Hammed Olawale}
+
+ \begin{document}
+\maketitle
+
+I made this flow chart using LaTex draw.
+\begin{center}
+
+
+\psscalebox{0.6 0.6} % Change this value to rescale the drawing.
+{
+\begin{pspicture}(0,-13.0)(20.4,13.0)
+\psellipse[linecolor=black, linewidth=0.04, dimen=outer](10.4,12.6)(1.6,0.4)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(10.4,12.2)(10.4,11.4)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](12.0,11.4)(8.8,10.2)
+\psline[linecolor=black, linewidth=0.04](12.0,11.0)(17.2,11.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(17.2,11.0)(17.2,8.2)
+\psline[linecolor=black, linewidth=0.04](8.8,11.0)(3.2,11.0)(3.2,11.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(3.2,11.0)(3.2,8.2)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(10.4,10.2)(10.4,8.2)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](5.6,8.2)(0.8,6.6)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](12.4,8.2)(8.0,6.6)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](20.0,8.2)(14.8,6.6)
+\psline[linecolor=black, linewidth=0.04](3.2,6.6)(3.2,5.8)
+\psline[linecolor=black, linewidth=0.04](3.2,5.8)(10.4,5.8)
+\psline[linecolor=black, linewidth=0.04](10.4,5.8)(10.4,6.6)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,5.8)(6.4,5.0)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.8,5.0)(3.2,3.4)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,3.4)(6.4,2.6)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,2.6)(3.6,1.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,1.0)(6.4,0.2)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,-1.4)(6.4,-2.2)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,0.2)(3.6,-1.4)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,-2.2)(3.6,-4.2)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(3.6,1.4)(2.0,1.4)(2.0,-3.8)(3.6,-3.8)(3.6,-3.8)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(17.2,6.6)(17.2,-2.2)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](14.02,-2.2)(14.0,-2.22)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](20.0,-2.2)(14.0,-3.4)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(17.2,-3.4)(17.2,-4.2)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](20.4,-4.2)(14.0,-5.8)
+\psline[linecolor=black, linewidth=0.04](17.2,-5.8)(17.2,-7.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(17.2,-7.0)(10.4,-7.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(3.6,2.2)(1.2,2.2)(1.2,-7.0)(3.6,-7.0)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,-6.2)(3.6,-7.4)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,-7.4)(6.4,-7.8)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,-7.8)(3.6,-9.0)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,-9.0)(6.4,-9.4)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,-9.4)(3.6,-10.2)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,-10.2)(6.4,-10.6)
+\psframe[linecolor=black, linewidth=0.04, dimen=outer](10.4,-10.6)(3.6,-11.4)
+\psline[linecolor=black, linewidth=0.04, arrowsize=0.05291667cm 2.0,arrowlength=1.4,arrowinset=0.0]{->}(6.4,-11.4)(6.4,-12.2)
+\psellipse[linecolor=black, linewidth=0.04, dimen=outer](6.4,-12.6)(1.6,0.4)
+\end{pspicture}
+}
+\end{center}
+
+\end{document}
